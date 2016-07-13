@@ -8548,6 +8548,44 @@ input[type="button"].btn-block {
     .lbl-xxl{
       font-size: 160%;
     }
+  /*plain*/
+
+    .lbl-main-dark-plain{
+      color: #132f4d;
+      background-color: transparent;
+      background-image: none;
+      padding: 5px;
+    }
+    .lbl-orange-dark-plain{
+      color: #d57939;
+      background-color: transparent;
+      background-image: none;
+      padding: 5px;
+    }
+    .lbl-gray-dark-plain{
+      color: #363636;
+      background-color: transparent;
+      background-image: none;
+      padding: 5px;
+    }
+    .lbl-navy-dark-plain{
+      color: #63717E;
+      background-color: transparent;
+      background-image: none;
+      padding: 5px;
+    }
+    .lbl-purple-dark-plain{
+      color: #753F6E;
+      background-color: transparent;
+      background-image: none;
+      padding: 5px;
+    }
+    .lbl-mint-dark-plain{
+      color: #6AB6AC;
+      background-color: transparent;
+      background-image: none;
+      padding: 5px;
+    }
 
   /*outline*/
 
