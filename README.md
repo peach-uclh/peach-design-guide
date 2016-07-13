@@ -36,6 +36,6 @@ To use logos you will need to include:
 
 The guidelines is essentially a single page booklet that has simple markup which is easy to follow.
 
-1) Clone the repo to local machine using the SSH clone URL. <br/>
-2) Create a branch with your name and component to be worked on. <br/>
-3) Create the pull request.
+1) Fork the repo. <br/>
+2) Work on component. <br/>
+3) Create the pull request with meaningful message.
