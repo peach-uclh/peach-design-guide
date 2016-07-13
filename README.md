@@ -14,6 +14,8 @@ To use components you will need to include:
 <br>
 3) js/jQuery.js
 <br>
+<br>
+<br>
 To use icons you will need to:
 <br>
 1) head to http://samcome.github.io/webfont-medical-icons/
@@ -22,9 +24,13 @@ To use icons you will need to:
 <br>
 3) follow guidelines in design-guide.
 <br>
+<br>
+<br>
 To use logos you will need to include:
 <br>
 1) img/*specific-logo*.svg
+<br>
+<br>
 <br>
 
 ## How To Contribute
