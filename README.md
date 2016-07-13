@@ -7,8 +7,6 @@ Developers of PEACH applications should use this document as a guideline for dev
 We strongly recommend that if a developer comes across a use case for the first time (i.e. not present in the guidelines), then that developer use his/her common sense and adhere to the design principles shown in the guidelines.
 
 To use components you will need to include:
-<br>
-<br>
 1) css/Peachstrap.css
 <br>
 2) js/Bootstrap.js
