@@ -1351,16 +1351,13 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <h1 id="Forms" class="section-header">Forms</h1>
-                        <p class="section-lead">This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. </p>
+                        <p class="section-lead">Below you will find rules for form designs.</p>
                         <div class="section-callout">
                             <h4 class="section-callout-header">
-                                Do's and Don'ts
+                                Rule 1
                             </h4>
                             <div class="section-callout-lead">
-                                <ul>
-                                    <li>This</li>
-                                    <li>That</li>
-                                </ul>
+                                <p>Keep forms in a single column.</p>
                             </div>
                         </div>
                         <div class="section-example">
@@ -1368,10 +1365,40 @@
                                 Example Usage
                             </h4>
                             <div class="section-example-container">
-                                <p>SOME FORM EXAMPLES HERE</p>
+                               <form>
+                                   <fieldset class="form-group">
+                                     <label for="formGroupExampleInput">First Name</label>
+                                     <input type="text" placeholder="First Name..." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Last Name</label>
+                                     <input type="text" placeholder="Last Name..." id="formGroupExampleInput" class="form-control">
+                                   </fieldset>
+                                   <div class="checkbox">
+                                      <label>
+                                        <input type="checkbox" value="">
+                                        I am in a vertical form.
+                                      </label>
+                                    </div>
+                                    <button type="submit" class="btn-peach-blue-dark"> Submit </button> 
+                               </form>
                                 <!-- examples here -->
                                 <div class="code">
-                                    <code>&lt;script src="js/bootstrap.min.js"&gt;&lt;/script&gt;</code>   
+                                    <pre>
+&lt;form&gt;
+    &lt;fieldset class=&quot;form-group&quot;&gt;
+         &lt;label for=&quot;formGroupExampleInput&quot;&gt;First Name&lt;/label&gt;
+         &lt;input type=&quot;text&quot; placeholder=&quot;First Name...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+         &lt;label for=&quot;formGroupExampleInput&quot;&gt;Last Name&lt;/label&gt;
+         &lt;input type=&quot;text&quot; placeholder=&quot;Last Name...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+        &lt;/fieldset&gt;
+        &lt;div class=&quot;checkbox&quot;&gt;
+          &lt;label&gt;
+            &lt;input type=&quot;checkbox&quot; value=&quot;&quot;&gt;
+            I am in a vertical form.
+          &lt;/label&gt;
+        &lt;/div&gt;
+    &lt;button type=&quot;submit&quot; class=&quot;btn-peach-blue-dark&quot;&gt; Submit &lt;/button&gt; 
+&lt;/form&gt;
+                                    </pre>
                                 </div>
                             </div>
                         </div>
