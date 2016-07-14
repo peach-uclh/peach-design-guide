@@ -226,3 +226,6 @@ div.code{
 .logo-example{
 	font-family: 'Karla';
 }
+#wrong-name-label{
+	color: red;
+}
