@@ -1501,7 +1501,7 @@
                                                                         Rule 5
                                                                         </h4>
                                                                         <div class="section-callout-lead">
-                                                                            <p>All drop downs with less than 6 options should be displayed as buttons</p>
+                                                                            <p>All drop downs with less than 6 options should be displayed as a multiple select box</p>
                                                                         </div>
                                                                     </div>
                                                                     <div class="section-example">
@@ -1511,42 +1511,48 @@
                                                                         <div class="section-example-container">
                                                                         <br>
                                                                         <p>Incorrect</p>
-                                                                        <div class="btn-group">
-                                                        <button type="button" class="btn-peach-main-dark-fill-angled dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown Options</button>
-                                                        <div class="dropdown-menu-main-dark">
-                                                          <a class="dropdown-item-main-dark" href="#">Item 1</a>
-                                                          <a class="dropdown-item-main-dark" href="#">Item 2</a>
-                                                          <a class="dropdown-item-main-dark" href="#">Item 3</a>
-                                                          <a class="dropdown-item-main-dark" href="#">Item 4</a>
-                                                          <a class="dropdown-item-main-dark" href="#">Item 5</a>
-                                                        </div>
-                                                    </div>
-                                                    <p><br>Correct</p>
-                                                    <button class="btn-peach-main-dark-outline">Item 1</button>
-                                                    <button class="btn-peach-orange-dark-outline">Item 2</button>
-                                                    <button class="btn-peach-grey-dark-outline">Item 3</button>
-                                                    <button class="btn-peach-navy-dark-outline">Item 4</button>
-                                                    <button class="btn-peach-purple-dark-outline">Item 5</button>
-                                                                            <br>
-                                                                            <div class="code">
-                                                                                                                    <pre>
-&lt;div class=&quot;btn-group&quot;&gt;
-    &lt;button type=&quot;button&quot; class=&quot;btn-peach-main-dark-fill-angled dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Dropdown Options&lt;/button&gt;
-    &lt;div class=&quot;dropdown-menu-main-dark"&gt;
-        &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;>Item 1&lt;/a&gt;
-        &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;>Item 2&lt;/a&gt;
-        &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;>Item 3&lt;/a&gt;
-        &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;>Item 4&lt;/a&gt;
-        &lt;a class=&quot;dropdown-item-main-dark&quot; href=&quot;#&quot;>Item 5&lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;p>&lt;br>Correct&lt;/p&gt;
-&lt;button class=&quot;btn-peach-main-dark-outline&quot;>Item 1&lt;/button&gt;
-&lt;button class=&quot;btn-peach-orange-dark-outline&quot;>Item 2&lt;/button&gt;
-&lt;button class=&quot;btn-peach-grey-dark-outline&quot;>Item 3&lt;/button&gt;
-&lt;button class=&quot;btn-peach-navy-dark-outline&quot;>Item 4&lt;/button&gt;
-&lt;button class=&quot;btn-peach-purple-dark-outline&quot;>Item 5&lt;/button&gt;
-                                                                                </pre>
+                                                                        <form>
+                                                                            <fieldset class="form-group">
+                                                                                <label for="exampleSelect1">Example select</label>
+                                                                                <select class="form-control" id="exampleSelect1">
+                                                                                  <option>1</option>
+                                                                                  <option>2</option>
+                                                                                  <option>3</option>
+                                                                                  <option>4</option>
+                                                                                  <option>5</option>
+                                                                                </select>
+                                                                            </fieldset>
+                                                                        </form>
+                                                                        <br>
+                                                                        <p>Correct</p>
+                                                                        <form>
+                                                                            <fieldset class="form-group">
+                                                                                <label for="exampleSelect2">Example multiple select</label>
+                                                                                <select multiple class="form-control" id="exampleSelect2">
+                                                                                  <option>1</option>
+                                                                                  <option>2</option>
+                                                                                  <option>3</option>
+                                                                                  <option>4</option>
+                                                                                  <option>5</option>
+                                                                                </select>
+                                                                              </fieldset>
+                                                                        </form>
+                                                                        <br>
+                                                                        <div class="code">
+<pre>
+&lt;form&gt;
+  &lt;fieldset class=&quot;form-group&quot;&gt;
+    &lt;label for=&quot;exampleSelect2&quot;&gt;Example multiple select&lt;/label&gt;
+    &lt;select multiple class=&quot;form-control&quot; id=&quot;exampleSelect2&quot;&gt;
+      &lt;option&gt;1&lt;/option&gt;
+      &lt;option&gt;2&lt;/option&gt;
+      &lt;option&gt;3&lt;/option&gt;
+      &lt;option&gt;4&lt;/option&gt;
+      &lt;option&gt;5&lt;/option&gt;
+    &lt;/select&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;
+</pre>
                                                                             </div>
                                                                         </div>
                                                                     </div>
