@@ -1596,6 +1596,286 @@
                                                                         </div>
                                                                     </div>
                                                                     <!-- RULE 6 ENDS HERE --><!-- RULE 6 ENDS HERE --><!-- RULE 6 ENDS HERE --><!-- RULE 6 ENDS HERE -->
+                                                                    <!-- RULE 7 STARTS HERE --><!-- RULE 7 STARTS HERE --><!-- RULE 7 STARTS HERE -->
+                        <br>
+                        <div class="section-callout">
+                            <h4 class="section-callout-header">
+                                <!-- Rule number here -->
+                                Rule 7
+                            </h4>
+                            <div class="section-callout-lead">
+                                <p><!-- Describe the rule here -->
+                                  Denote optional fields
+                                </p>
+                            </div>
+                        </div>
+                        <div class="section-example">
+                            <h4 class="section-example-header">
+                                Right Example
+                            </h4>
+                            <div class="section-example-container"><br>
+                              <form>
+                                   <fieldset class="form-group">
+                                     <label for="formGroupExampleInput">First Name</label>
+                                     <input type="text" placeholder="First Name..." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Last Name</label>
+                                     <input type="text" placeholder="Last Name..." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Height <labelOptional>optional</labelOptional></label>
+                                     <input type="text" placeholder="Height..." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Weight <labelOptional>optional</labelOptional></label>
+                                     <input type="text" placeholder="Weight..." id="formGroupExampleInput" class="form-control">
+                                    </fieldset>
+                              </form>
+                                <div class="code">
+                                    <pre>
+&lt;form&gt;
+     &lt;fieldset class=&quot;form-group&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;First Name&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;First Name...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Last Name&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;Last Name...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Height &lt;labelOptional&gt;optional&lt;/labelOptional&gt;&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;Height...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Weight &lt;labelOptional&gt;optional&lt;/labelOptional&gt;&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;Weight...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+      &lt;/fieldset&gt;
+&lt;/form&gt;
+                                    </pre>
+                                </div>
+
+                                <h4 class="section-example-header">
+                                    Wrong Example
+                                </h4>
+                                <div class="section-example-container"><br>
+                                  <form>
+                                       <fieldset class="form-group">
+                                         <label for="formGroupExampleInput">First Name *</label>
+                                         <input type="text" placeholder="First Name..." id="formGroupExampleInput" class="form-control">
+                                         <label for="formGroupExampleInput">Last Name *</label>
+                                         <input type="text" placeholder="Last Name..." id="formGroupExampleInput" class="form-control">
+                                         <label for="formGroupExampleInput">Height</label>
+                                         <input type="text" placeholder="Height..." id="formGroupExampleInput" class="form-control">
+                                         <label for="formGroupExampleInput">Weight</label>
+                                         <input type="text" placeholder="Weight..." id="formGroupExampleInput" class="form-control">
+                                        </fieldset>
+                                  </form>
+                            </div>
+                            </div>
+<!-- RULE 7 ENDS HERE --><!-- RULE 7 ENDS HERE --><!-- RULE 7 ENDS HERE --><!-- RULE 7 ENDS HERE -->
+<!-- RULE 8 STARTS HERE --><!-- RULE 8 STARTS HERE --><!-- RULE 8 STARTS HERE -->
+                        <br>
+                        <div class="section-callout">
+                            <h4 class="section-callout-header">
+                                <!-- Rule number here -->
+                                Rule 8
+                            </h4>
+                            <div class="section-callout-lead">
+                                <p><!-- Describe the rule here -->
+                                  Group related information.</p>
+                            </div>
+                        </div>
+                        <div class="section-example">
+                            <h4 class="section-example-header">
+                                Example Usage
+                            </h4>
+                            <div class="section-example-container">
+                              <form>
+                                   <fieldset class="form-group">
+                                     <labelformGroup>Basic Account Details</labelformGroup><br>
+                                     <label for="formGroupExampleInput">First Name</label>
+                                     <input type="text" placeholder="First Name..." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Last Name</label>
+                                     <input type="text" placeholder="Last Name..." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Address</label>
+                                     <input type="text" placeholder="House No." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Postcode</label>
+                                     <input type="text" placeholder="Postcode..." id="formGroupExampleInput" class="form-control">
+                                    </fieldset>
+                                    <fieldset class="form-group">
+                                      <labelformGroup> Medical History</labelformGroup><br>
+                                      <label for="formGroupExampleInput">Childhood History</label><br>
+                                      <input type="checkbox" value="">MMR
+                                      <input type="checkbox" value="">Parotits
+                                      <input type="checkbox" value="">Varicella
+                                      <br>
+                                      <labelformGroup for="formGroupExampleInput">Vaccination History</labelformGroup>
+                                      <input type="text" placeholder="Name" id="formGroupExampleInput" class="form-control">
+                                      <input type="text" placeholder="When" id="formGroupExampleInput" class="form-control">
+                                     </fieldset>
+                              </form>
+                              <div class="code">
+                                  <pre>
+                                  <!-- Code Here -->
+&lt;form&gt;
+     &lt;fieldset class=&quot;form-group&quot;&gt;
+       &lt;labelformGroup&gt;Basic Account Details&lt;/labelformGroup&gt;&lt;br&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;First Name&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;First Name...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Last Name&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;Last Name...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Address&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;House No.&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Postcode&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;Postcode...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+      &lt;/fieldset&gt;
+      &lt;fieldset class=&quot;form-group&quot;&gt;
+        &lt;labelformGroup&gt; Medical History&lt;/labelformGroup&gt;&lt;br&gt;
+        &lt;label for=&quot;formGroupExampleInput&quot;&gt;Childhood History&lt;/label&gt;&lt;br&gt;
+        &lt;input type=&quot;checkbox&quot; value=&quot;&quot;&gt;MMR
+        &lt;input type=&quot;checkbox&quot; value=&quot;&quot;&gt;Parotits
+        &lt;input type=&quot;checkbox&quot; value=&quot;&quot;&gt;Varicella
+        &lt;br&gt;
+        &lt;labelformGroup for=&quot;formGroupExampleInput&quot;&gt;Vaccination History&lt;/labelformGroup&gt;
+        &lt;input type=&quot;text&quot; placeholder=&quot;Name&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+        &lt;input type=&quot;text&quot; placeholder=&quot;When&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;/fieldset&gt;
+&lt;/form&gt;
+                                  </pre>
+                              </div>
+                            </div>
+<!-- RULE 8 ENDS HERE --><!-- RULE 8 ENDS HERE --><!-- RULE 8 ENDS HERE --><!-- RULE 8 ENDS HERE -->
+<!-- RULE 9 STARTS HERE --><!-- RULE 9 STARTS HERE --><!-- RULE 9 STARTS HERE -->
+                        <br>
+                        <div class="section-callout">
+                            <h4 class="section-callout-header">
+                                <!-- Rule number here -->
+                                Rule 9
+                            </h4>
+                            <div class="section-callout-lead">
+                                <p><!-- Describe the rule here -->
+                                  Date of Birth as dropdowns.</p>
+                            </div>
+                        </div>
+                        <div class="section-example">
+                            <h4 class="section-example-header">
+                                Example Usage
+                            </h4>
+                            <div class="section-example-container">
+                              <form>
+                                   <fieldset class="form-group">
+                                     <labelformGroup>Basic Account Details</labelformGroup><br>
+                                     <label for="formGroupExampleInput">First Name</label>
+                                     <input type="text" placeholder="First Name..." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Last Name</label>
+                                     <input type="text" placeholder="Last Name..." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Date of Birth</label>
+                                       <select type="date" class="form-control" style="width:auto">
+                                         <option>DD</option>
+                                         <option value="">1</option>
+                                         <option value="">2</option>
+                                         <option value="">3</option>
+                                         <option value="">4</option>
+                                       </select>
+                                       <select type="month"class="form-control" style="width:auto">
+                                         <option>MM</option>
+                                         <option value="">1</option>
+                                         <option value="">2</option>
+                                         <option value="">3</option>
+                                         <option value="">4</option>
+                                       </select>
+                                       <select type="year"class="form-control" style="width:auto">
+                                         <option>YYYY</option>
+                                         <option value="">1900</option>
+                                         <option value="">1901</option>
+                                         <option value="">1902</option>
+                                         <option value="">1903</option>
+                                       </select>
+                                     <label for="formGroupExampleInput">Address</label>
+                                     <input type="text" placeholder="House No." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Postcode</label>
+                                     <input type="text" placeholder="Postcode..." id="formGroupExampleInput" class="form-control">
+                                    </fieldset>
+                              </form>
+                                <div class="code">
+                                    <pre>
+&lt;form&gt;
+     &lt;fieldset class=&quot;form-group&quot;&gt;
+       &lt;labelformGroup&gt;Basic Account Details&lt;/labelformGroup&gt;&lt;br&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;First Name&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;First Name...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Last Name&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;Last Name...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Date of Birth&lt;/label&gt;
+         &lt;select type=&quot;date&quot; class=&quot;form-control&quot; style=&quot;width:auto&quot;&gt;
+           &lt;option&gt;DD&lt;/option&gt;
+           &lt;option value=&quot;&quot;&gt;1&lt;/option&gt;
+           &lt;option value=&quot;&quot;&gt;2&lt;/option&gt;
+           &lt;option value=&quot;&quot;&gt;3&lt;/option&gt;
+           &lt;option value=&quot;&quot;&gt;4&lt;/option&gt;
+         &lt;/select&gt;
+         &lt;select type=&quot;month&quot;class=&quot;form-control&quot; style=&quot;width:auto&quot;&gt;
+           &lt;option&gt;MM&lt;/option&gt;
+           &lt;option value=&quot;&quot;&gt;1&lt;/option&gt;
+           &lt;option value=&quot;&quot;&gt;2&lt;/option&gt;
+           &lt;option value=&quot;&quot;&gt;3&lt;/option&gt;
+           &lt;option value=&quot;&quot;&gt;4&lt;/option&gt;
+         &lt;/select&gt;
+         &lt;select type=&quot;year&quot;class=&quot;form-control&quot; style=&quot;width:auto&quot;&gt;
+           &lt;option&gt;YYYY&lt;/option&gt;
+           &lt;option value=&quot;&quot;&gt;1900&lt;/option&gt;
+           &lt;option value=&quot;&quot;&gt;1901&lt;/option&gt;
+           &lt;option value=&quot;&quot;&gt;1902&lt;/option&gt;
+           &lt;option value=&quot;&quot;&gt;1903&lt;/option&gt;
+         &lt;/select&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Address&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;House No.&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Postcode&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;Postcode...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+      &lt;/fieldset&gt;
+&lt;/form&gt;
+                                    </pre>
+                                </div>
+                            </div>
+<!-- RULE 9 ENDS HERE --><!-- RULE 9 ENDS HERE --><!-- RULE 9 ENDS HERE --><!-- RULE 9 ENDS HERE -->
+<!-- RULE 10 STARTS HERE --><!-- RULE 10 STARTS HERE --><!-- RULE 10 STARTS HERE -->
+                        <br>
+                        <div class="section-callout">
+                            <h4 class="section-callout-header">
+                                <!-- Rule number here -->
+                                Rule 10
+                            </h4>
+                            <div class="section-callout-lead">
+                                <p><!-- Describe the rule here -->
+                                Name input: First Name, Surname</p>
+                            </div>
+                        </div>
+                        <div class="section-example">
+                            <h4 class="section-example-header">
+                                Example Usage
+                            </h4>
+                            <div class="section-example-container">
+                              <form>
+                                   <fieldset class="form-group">
+                                     <labelformGroup>Basic Account Details</labelformGroup><br>
+                                     <label for="formGroupExampleInput">First Name</label>
+                                     <input type="text" placeholder="First Name..." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Last Name</label>
+                                     <input type="text" placeholder="Last Name..." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Address</label>
+                                     <input type="text" placeholder="House No." id="formGroupExampleInput" class="form-control">
+                                     <label for="formGroupExampleInput">Postcode</label>
+                                     <input type="text" placeholder="Postcode..." id="formGroupExampleInput" class="form-control">
+                                    </fieldset>
+                              </form>
+                                <div class="code">
+                                    <pre>
+&lt;form&gt;
+     &lt;fieldset class=&quot;form-group&quot;&gt;
+       &lt;labelformGroup&gt;Basic Account Details&lt;/labelformGroup&gt;&lt;br&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;First Name&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;First Name...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Last Name&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;Last Name...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Address&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;House No.&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+       &lt;label for=&quot;formGroupExampleInput&quot;&gt;Postcode&lt;/label&gt;
+       &lt;input type=&quot;text&quot; placeholder=&quot;Postcode...&quot; id=&quot;formGroupExampleInput&quot; class=&quot;form-control&quot;&gt;
+      &lt;/fieldset&gt;
+&lt;/form&gt;
+                                    </pre>
+                                </div>
+                            </div>
+<!-- RULE 10 ENDS HERE --><!-- RULE 10 ENDS HERE --><!-- RULE 10 ENDS HERE --><!-- RULE 10 ENDS HERE -->
                                                                     <br>
                                                                 </div>
                                                             </div>
